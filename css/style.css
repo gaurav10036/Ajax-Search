@@ -1,0 +1,48 @@
+body {
+    background-color: #f9f9f9;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#444;
+	font-size:15px;
+	line-height:1.5;
+}
+.loading {
+    bottom: 11px;
+    display: none;
+    position: absolute;
+    right: 15px;
+} 
+#result {
+	background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display: none;
+    max-height: 150px;
+    max-width: 590px;
+    overflow: hidden;
+    padding: 0 5px 10px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+}
+.container {
+	max-width:1024px;
+	margin:0 auto;
+	position:relative;
+}
+*{
+	outline:none;
+}
+.textField {
+	display:block;
+	width:98%;
+	padding:10px 1%;
+	border: 1px solid #ccc;
+}
+.searchInner {
+	width:98%;
+	padding:10px 1%;
+	max-width:600px;
+	margin:0 auto;
+	position:relative;
+}
