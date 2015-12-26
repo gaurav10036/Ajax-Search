@@ -1,2 +1,2 @@
-# Ajax-Search
-Ajax search into database
+Ajax-Search
+Searching through the database using Ajax.
