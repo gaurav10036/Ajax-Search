@@ -10,11 +10,19 @@ $q = $_POST['q'];
 	?>
 	<ul>
 		<?php 
-		while($row=mysql_fetch_array($run))
+		$row=mysql_fetch_array($run);
+		if(count($row)>1)
 		{
- 
-				echo '<li>'.$row['title'].'</li>';
-	 
+			while($row=mysql_fetch_array($run))
+			{
+				
+					echo '<li>'.$row['title'].'</li>';
+		 
+			}
+		}
+		else
+		{
+			echo 'No Result Found...';
 		}
 		 ?>
 	</ul>
